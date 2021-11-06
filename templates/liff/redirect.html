@@ -1,0 +1,24 @@
+<!doctype html>
+<html><head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,viewport-fit=cover,user-scalable=no"
+    name="viewport">
+  <title>LineFresh2021</title>
+</head>
+
+<body>
+  <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+  <script>
+      liff.init({ liffId: "1656487192-GDz8ZxYQ" })
+        .then(() => {
+            console.log('init')
+            if (!liff.isLoggedIn()) {
+                liff.login()
+            }
+        })
+        .catch((err) => {
+            alert('error')
+        });
+  </script>
+</body></html>

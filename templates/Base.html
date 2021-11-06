@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{% endblock %}</title>
+    {% block head %}
+        <!-- Google Font: Source Sans Pro -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+        <!-- Sweetalert2 style -->
+        <link rel="stylesheet" href="{% static 'css/sweetalert2.css' %}">
+        <!-- Bootstrap5 style -->
+        <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    {% endblock %}
+</head>
+<body>
+    {% block content %}
+
+    {% endblock %}
+
+
+<!-- jQuery -->
+<script src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
+<!-- Fontawesome -->
+<script src="https://kit.fontawesome.com/25e7b93412.js" crossorigin="anonymous"></script>
+<!-- Bootstrap 5 -->
+<script src="{% static 'js/bootstrap.js' %}"></script>
+<!-- Sweetalert2 -->
+<script src="{% static 'js/sweetalert2.min.js' %}"></script>
+<!-- Required JS -->
+{% block requiredjs %}{% endblock %}
+
+<!-- Custom Javascript -->
+{% block customjs %}{% endblock %}
+
+
+</body>
+</html>
