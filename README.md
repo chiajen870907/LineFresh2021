@@ -24,5 +24,7 @@
 3.	透過遊戲介面的方式引導消費至LINE熱點的商家訊息。
 4.	透過遊戲方式協助商家進行數位化的轉型，申請LINE熱點、LINE Pay等服務，以擁有更佳的宣傳效果
 
-![image](https://github.com/chiajen870907/LineFresh2021/blob/main/IMG/LineBot1.jpg)
-![image](https://github.com/chiajen870907/LineFresh2021/blob/main/IMG/LineBot2.jpg)
+<div style="text-align:center;">
+  <img src="https://github.com/chiajen870907/LineFresh2021/blob/main/IMG/LineBot1.jpg" style="width:30%; display:inline-block;">
+  <img src="https://github.com/chiajen870907/LineFresh2021/blob/main/IMG/LineBot2.jpg" style="width:30%; display:inline-block;">
+</div>
